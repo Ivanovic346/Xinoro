@@ -1,0 +1,50 @@
+
+button{
+    font: menu 20px;
+    height: 60px;
+    width: 100px;
+    border: none;
+   margin-left: 10%;
+   margin-right: 10px;
+   margin-top: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+    color: black;
+    
+   
+    
+   
+    
+}
+    
+    
+  
+button:hover{
+   background-color: #5688B7;
+    transition: all .3s liner;
+    -webkit-transition: all .3s liner;
+    -moz-transition: all .3s linear;
+    transform: scale(0.9);
+      
+}
+button:active{
+        background: white; 
+         transition: all .3s liner;
+         -webkit-transition: all .3s liner;
+         -moz-transition: all .3s linear;
+         transform: scale(1.3);
+         filter: opacity(10%);
+         
+
+        
+}
+
+
+
+.background{
+    height: 65px;
+    
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
