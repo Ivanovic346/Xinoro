@@ -54,8 +54,8 @@
       <div onclick="createNewBox('1','menu');" type="menu" code="1" class="box">
 						Меню
 			</div>
-      <div onclick="createNewBox('1','text');" type="text" code="1" class="box">
-						Красивый текст с кнопкой
+      <div onclick="createNewBox('1','footer');" type="footer" code="1" class="box">
+						footer от вани
 			</div>
     </div>
   </nav>
