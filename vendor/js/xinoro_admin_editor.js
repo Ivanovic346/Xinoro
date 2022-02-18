@@ -47,3 +47,5 @@ function loadToolBox(type)
         }
     }), 400);
 }
+// Модальное окно(Действие)
+$("#nextSaveBtn").click(() => location.reload());

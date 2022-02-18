@@ -31,7 +31,6 @@ function savePage()
         },
         success: function(result) {
             document.getElementById("xinoro-global-container").innerHTML += result.substr(result.indexOf("<body>", "</body>"));
-            alert("Тут типа уведомление что сохранено успешно");
         }
     });
 

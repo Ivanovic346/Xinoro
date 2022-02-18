@@ -38,12 +38,29 @@
         <a class="nav-link" type="other">Другое</a>
       </li>
       <li class="nav-item saveBtn">
-        <a class="nav-link" onclick="savePage();">Сохранить</a>
+        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#saveModal" onclick="savePage();">Сохранить</a>
       </li>
     </ul>
     <div id="items-box" class="design-box"></div>
   </nav>
   <?php echo $args["page_content"]; ?>
+  <!-- Modal -->
+  <div class="modal fade" id="saveModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="exampleModalLabel">Сохранение страницы</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Ваша страница была успешно сохранена, спасибо что используете Xinoro CMS
+        </div>
+        <div class="modal-footer border-0">
+          <button type="button" class="btn btn-primary" id="nextSaveBtn">Продолжить</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 <script type="text/javascript" src="vendor/js/xinoro_admin_editor.js"></script>
 <script type="text/javascript" src="vendor/js/xinoro_editor_js/xinoro_editor_getBlocks.js"></script>
