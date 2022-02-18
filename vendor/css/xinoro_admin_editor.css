@@ -3,15 +3,14 @@
   transition: all 0.5s ease-out;
 }
 
-#xinoro_text_ed
-{
+#xinoro_text_ed {
   outline: none;
 }
 
 .nav {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
 }
 
 .nav-link {
@@ -21,31 +20,87 @@
 
 .nav-link:hover {
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
 }
 
 .design-box {
   width: 100%;
-  height: 150px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 21px 70px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 21px 70px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 21px 70px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+.design-box-open {
+  -webkit-animation: OpenToolBox .5s linear;
+          animation: OpenToolBox .5s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.design-box-close {
+  -webkit-animation: closeToolBox .5s linear;
+          animation: closeToolBox .5s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes OpenToolBox {
+  10% {
+    height: 15px;
+  }
+  100% {
+    height: 250px;
+    padding: 24px 0 0 24px;
+  }
+}
+
+@keyframes OpenToolBox {
+  10% {
+    height: 15px;
+  }
+  100% {
+    height: 250px;
+    padding: 24px 0 0 24px;
+  }
+}
+
+@-webkit-keyframes closeToolBox {
+  10% {
+    height: 250px;
+  }
+  100% {
+    height: 0px;
+    padding: 0;
+  }
+}
+
+@keyframes closeToolBox {
+  10% {
+    height: 250px;
+  }
+  100% {
+    height: 0px;
+    padding: 0;
+  }
+}
+
 .box {
   background: gray;
-  width: 10%;
-  height: 100px;
+  width: 300px;
+  height: 200px;
   margin-right: 10px;
+  border: 1px solid black;
   cursor: pointer;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .box:hover {
   -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 .saveBtn {
@@ -56,19 +111,19 @@
 
 .saveBtn:hover {
   -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
 
-.saveBtn > .nav-link:hover{
+.saveBtn > .nav-link:hover {
   -webkit-box-shadow: none;
-    box-shadow: none;
+  box-shadow: none;
 }
 
-.saveBtn > a{
+.saveBtn > a {
   color: white;
 }
 
-.saveBtn > a:hover{
+.saveBtn > a:hover {
   color: white;
 }
 /*# sourceMappingURL=xinoro_admin_editor.css.map */

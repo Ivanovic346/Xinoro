@@ -20,6 +20,8 @@ function createNewBox(idblock,category)
       {
         div.contentEditable = true;
       }
+
+      loadToolMenu();
       
     }
   });

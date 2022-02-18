@@ -23,16 +23,17 @@
 		}
 
 		// Получение блоков из категорий
-		// if($_POST["type"] == "getBlocksCategory")
-		// {
-		// 	$mysqlconnect = new BaseDate();
-		// 	foreach($mysqlconnect->getAllDate("SELECT * FROM editor_block WHERE category LIKE '".$_POST['category']."'") as $value => $items)
-		// 	{
-		// 		echo '<div onclick="createNewBox('."'".$items["code"]."'".','."'".$items["category"]."'".');" type="'.$items["category"].'" code="'.$items["code"].'" class="box">
-		// 				'.$items["title"].'
-		// 	  		</div>';
-		// 	}
-		// }
+		if($_POST["type"] == "getBlocksCategory")
+		{
+			$mysqlconnect = new BaseDate();
+			foreach($mysqlconnect->getAllDate("SELECT * FROM editor_block WHERE category LIKE '".$_POST['category']."'") as $value => $items)
+			{
+				echo '<div style="background:url('."'vendor/assets/XinoroEditor/images/".$items["category"]."-".$items["code"]."/header.png"."'".');" onclick="createNewBox('."'".$items["code"]."'".','."'".$items["category"]."'".');" type="'.$items["category"].'" code="'.$items["code"].'" class="box">
+						
+			  		</div>';
+					//   '.$items["title"].'
+			}
+		}
 		// debug
 		// echo "</br>";
 		// var_dump($_POST);

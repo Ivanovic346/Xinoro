@@ -41,23 +41,7 @@
         <a class="nav-link" onclick="savePage();">Сохранить</a>
       </li>
     </ul>
-    <div id="items-box" class="design-box pt-4 ps-4">
-      <div onclick="createNewBox('1','header');" type="header" code="1" class="box">
-						Заголовок с горами
-			</div>
-      <div onclick="createNewBox('1','text');" type="text" code="1" class="box">
-						Красивый текст с кнопкой
-			</div>
-      <div onclick="createNewBox('2','header');" type="header" code="2" class="box">
-            Заголовок с лого
-			</div>
-      <div onclick="createNewBox('1','menu');" type="menu" code="1" class="box">
-						Меню
-			</div>
-      <div onclick="createNewBox('1','footer');" type="footer" code="1" class="box">
-						footer от вани
-			</div>
-    </div>
+    <div id="items-box" class="design-box"></div>
   </nav>
   <?php echo $args["page_content"]; ?>
 </body>
