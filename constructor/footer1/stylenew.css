@@ -1,0 +1,34 @@
+footer {
+  width: 100%;
+  height: auto;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.container .logo {
+  font-size: 20px;
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 8px;
+}
+
+.container .caption {
+  color: #6c757d;
+  font-size: 13px;
+}
+
+.container .caption a {
+  color: #495057;
+  text-decoration: none;
+}
+
+.container a {
+  color: #495057;
+  text-decoration: none;
+}
+/*# sourceMappingURL=stylenew.css.map */
