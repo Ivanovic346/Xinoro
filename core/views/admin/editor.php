@@ -16,22 +16,22 @@
       <li class="nav-item" id="nav-btn" type="">
         <a class="nav-link">Приемущества</a>
       </li>
-      <li class="nav-item" id="nav-btn" type="">
+      <li class="nav-item" id="nav-btn" type="column">
         <a class="nav-link">Колонки</a>
       </li>
-      <li class="nav-item" id="nav-btn" type="">
+      <li class="nav-item" id="nav-btn" type="separator">
         <a class="nav-link">Разделитель</a>
       </li>
-      <li class="nav-item" id="nav-btn" type="">
+      <li class="nav-item" id="nav-btn" type="menu">
         <a class="nav-link">Меню</a>
       </li>
-      <li class="nav-item" id="nav-btn" type="">
+      <li class="nav-item" id="nav-btn" type="footer">
         <a class="nav-link">Подвал</a>
       </li>
-      <li class="nav-item" id="nav-btn" type="">
+      <li class="nav-item" id="nav-btn" type="video">
         <a class="nav-link">Видео</a>
       </li>
-      <li class="nav-item" id="nav-btn" type="">
+      <li class="nav-item" id="nav-btn" type="form">
         <a class="nav-link">Форма</a>
       </li>
       <li class="nav-item" id="nav-btn" type="">
