@@ -2,11 +2,8 @@
 window.onload = function() {
     let styleLinks = [];
 
-    // Включаем возможность редактирования текста
-    for(let div of document.querySelectorAll("#xinoro_text_ed"))
-    {
-      div.contentEditable = true;
-    }
+    // Включаем возможность редактора
+    getEditorTools();
 
     // Расшифровываем пути для замены картинок
     for(let div of document.querySelectorAll("#xinoro_background")) {
@@ -41,5 +38,15 @@ function switchImagesUrl()
     for(let div of document.querySelectorAll("#xinoro_image"))
     {
         div.setAttribute("src","vendor/assets/XinoroEditor/images/"+div.getAttribute('image-path')+")");
+    }
+}
+
+
+function getEditorTools()
+{
+    // Включаем возможность редактирования текста
+    for(let div of document.querySelectorAll("#xinoro_text_ed"))
+    {
+      div.contentEditable = true;
     }
 }

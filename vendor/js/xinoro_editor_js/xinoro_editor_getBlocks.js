@@ -12,15 +12,16 @@ function createNewBox(idblock,category)
     success: function(result) {
       document.getElementById("xinoro-global-container").innerHTML += result.substr(result.indexOf("<body>", "</body>"));
   
+      // Подключение стилей
       createCssLink(category+"-"+idblock+".css");
+
+      // Свап картинок
       switchImagesUrl();
 
-      // Включаем возможность редактирования текста
-      for(let div of document.querySelectorAll("#xinoro_text_ed"))
-      {
-        div.contentEditable = true;
-      }
+      // Включаем возможности редактора
+      getEditorTools();
 
+      // Включение навигации по категориям
       loadToolMenu();
       
     }
