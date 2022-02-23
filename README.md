@@ -14,7 +14,7 @@
  ### Supports
  <a href=""> ![php](https://img.shields.io/badge/php-7.3+-blueviolet) </a>
  <a href=""> ![work](https://img.shields.io/badge/work-apache-blueviolet) </a>
- <a href=""> ![work](https://img.shields.io/badge/work-nginx-blueviolet) </a>
+ <a href=""> ![soon](https://img.shields.io/badge/work-nginx-blueviolet) </a>
  <a href=""> ![work](https://img.shields.io/badge/soon-mysql-blueviolet) </a>
  <a href=""> ![soon](https://img.shields.io/badge/soon-mongodb-blueviolet) </a>
  <a href=""> ![soon](https://img.shields.io/badge/soon-python%203.7+-blueviolet) </a>
