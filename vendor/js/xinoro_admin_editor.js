@@ -29,6 +29,14 @@ function loadToolMenu()
             }
         });
     }
+
+    // Настройка полей текста(Открытие редактора по клику на текст)
+    var TextBox = document.querySelectorAll("#xinoro_text_ed");
+    for (var i = 0; i < TextBox.length; i++) {
+        TextBox[i].onclick = function(){
+            // Отображение редактора текста
+        };
+    }
 }
 
 // Отправка запроса на блок

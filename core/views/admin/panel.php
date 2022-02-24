@@ -134,7 +134,7 @@
 							</div>
 
 							<div class="checkbox">
-								<input class="custom-checkbox" type="checkbox" id="xohebb" name="xohebb" value="brown" disabled="disabled">
+								<input class="custom-checkbox" type="checkbox" id="xohebb" name="xohebb" value="brown">
 								<label for="xohebb">XoheBB</label>
 							</div>
 							<input class="btn btn-primary" id="openInEditor" style="margin-bottom: 0px; border-bottom-width: 0px;" type="submit" name="createpage" value="Открыть в редакторе">

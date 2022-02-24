@@ -24,7 +24,6 @@ SOFTWARE.*/
 #XoheBB
 {
 	border: 2px solid;
-	min-width: 198px;
 	min-height: 300px;
 
 	width: auto;
@@ -43,7 +42,6 @@ SOFTWARE.*/
 
 #XoheBB-Editor
 {
-	min-width: 198px;
 	min-height: 300px;
 
 	width: auto;
@@ -55,7 +53,7 @@ SOFTWARE.*/
 {
 	background-color: #F8F8F8;
 	border-radius: 5px 5px 0px 0px;
-	border-bottom-color: #C9C9C9;
+	border-bottom: 1px solid gray;
 
     display: flex;
     flex-wrap: wrap;
