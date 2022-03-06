@@ -69,3 +69,19 @@ function showInfo(title, url, controller, action, visible, libs){
     catch{}
   });
 }
+
+// search pages
+$('#search-input').keyup(function(){
+  $.ajax({
+    url: "admin/ajax",
+    type: "POST",
+    data: {
+      type: "search-input",
+      query: $('#search-input').val(),
+    },
+    success: function(result) {
+      $("#items-box-searcher").empty();
+      document.getElementById("items-box-searcher").innerHTML += result.substr(result.indexOf("<body>", "</body>"));
+    }
+  });
+});

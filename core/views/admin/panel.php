@@ -46,7 +46,7 @@
         </div>
         <div class="content">
             <div class="search">
-                <input type="text" placeholder="Поиск страниц" name="" id="">
+                <input id="search-input" type="text" placeholder="Поиск страниц" name="" id="">
             </div>
             <div class="create-box">
                 <div class="text-box">
@@ -55,7 +55,7 @@
                 </div>
                 <img class="create-box-bg" src="vendor/image/panel-bg-img.png" alt="">
             </div>
-            <div class="items-box">
+            <div id="items-box-searcher" class="items-box">
 				<?php
 					#===========================================================================
 					# openInEditor() - javascript(local func) - Открытие страницы в редакторе
@@ -133,6 +133,7 @@
 								<label for="xohebb">XoheBB</label>
 							</div>
 							<input class="btn btn-primary" id="openInEditor" style="margin-bottom: 0px; border-bottom-width: 0px;" type="submit" name="createpage" value="Открыть в редакторе">
+							<!-- <input class="btn btn-primary noActive Active" style="margin-top: 5px;" type="submit" name="createpage" value="Страница отображается"> -->
 							<input class="btn btn-primary" style="margin-top: 5px;" id="savelibbtn" type="submit" name="createpage" value="Сохранить">
 						</div>
 			    	</div>
