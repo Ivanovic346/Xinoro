@@ -2,10 +2,7 @@
 //  Initializations of variables
 // 
 
-let infobox_title = document.getElementById("title_info");
-let infobox_url = document.getElementById("url_info");
-let infobox_controller = document.getElementById("controller_info");
-let infobox_action = document.getElementById("action_info");
+let infobox_url, infobox_controller, infobox_action;
 let selectedPage;
 
 //
@@ -34,7 +31,7 @@ exampleModal.addEventListener('show.bs.modal', function (event) {
 
 // Open page in page editor
 document.getElementById("openInEditor").addEventListener("click", function (event) {
-  window.location.href = "admin/editor?url_edit="+infobox_url.value+"&controller_edit="+infobox_controller.value+"&action_edit="+infobox_action.value;
+  window.location.href = "admin/editor?url_edit="+infobox_url+"&controller_edit="+infobox_controller+"&action_edit="+infobox_action;
 });
 
 // Save list library used
@@ -52,11 +49,9 @@ document.getElementById("savelibbtn").addEventListener("click", function (event)
 function showInfo(title, url, controller, action, visible, libs){
 
   // Init variables
-  
-  infobox_title.value = title;
-  infobox_url.value = url;
-  infobox_controller.value = controller;
-  infobox_action.value = action;
+  infobox_url = url;
+  infobox_controller = controller;
+  infobox_action = action;
   let library = libs.split(";");
   selectedPage = url;
 
@@ -73,18 +68,4 @@ function showInfo(title, url, controller, action, visible, libs){
     }
     catch{}
   });
-
-  if(visible > 0)
-  {
-    if(document.getElementById("unvisible_info").classList.contains("btn-selected"))
-      document.getElementById("unvisible_info").classList.remove("btn-selected")
-    document.getElementById("visible_info").classList.add("btn-selected")
-  }
-  else
-  {
-    if(document.getElementById("visible_info").classList.contains("btn-selected"))
-        document.getElementById("visible_info").classList.remove("btn-selected")
-      document.getElementById("unvisible_info").classList.add("btn-selected")
-  }
-
 }

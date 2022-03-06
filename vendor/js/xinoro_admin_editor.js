@@ -34,7 +34,8 @@ function loadToolMenu()
     var TextBox = document.querySelectorAll("#xinoro_text_ed");
     for (var i = 0; i < TextBox.length; i++) {
         TextBox[i].onclick = function(){
-            // Отображение редактора текста
+            $(".editor-tools").show();
+            
         };
     }
 }

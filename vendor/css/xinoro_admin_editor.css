@@ -91,34 +91,6 @@
   display: none;
 }
 
-.editor-tools-open{
-  display: block;
-  animation: openEditorTool 1s linear;
-}
-
-.editor-tools-close{
-  display: block;
-  animation: closeEditorTool 1s linear;
-}
-
-@keyframes openEditorTool {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 25%;
-  }
-}
-
-@keyframes closeEditorTool {
-  0% {
-    width: 25%;
-  }
-  100% {
-    width: 0%;
-  }
-}
-
 .box {
   background: gray;
   width: 300px;

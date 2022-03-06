@@ -7,79 +7,74 @@
 	<title>Панель администратора</title>
 </head>
 <body>
-	<div class="navigation container-fluid">
-		<div class="container p-2">
-			<nav>
-				<ul class="nav justify-content-center">
-				  <li class="nav-item">
-				    <a class="nav-link nav-link-active" aria-current="page" href="admin/panel">Главная</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="admin/content">Контент</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="admin/database">База</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="admin/setting">Настройки</a>
-				  </li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-	<div class="container ms-100 me-100 mt-5">
-		<div class="row">
-			<div class="col-xxl-6 col-lg-12 d-flex justify-content-xxl-end justify-content-center">
-				<div class="wrapper-box">
-					<div class="info-box ps-3 pt-2">	
-						<img class="people-img" src="vendor/image/people.svg">
-						<p class="mb-1">Управление в 2 клика</p>
-						<p>Управление страницами стало удобнее,<br>
-						создание страницы, ограничение прав<br>
-						на просмотр в 2 клика.</p>
-						<button data-bs-toggle="modal" data-bs-target="#exampleModal">Создать</button>
-					</div>
-					<div class="item-box mt-3">
-						<?php
-							#===========================================================================
-							# openInEditor() - javascript(local func) - Открытие страницы в редакторе
-							# showInfo() - javascript(local func) - Открытие информации о странице
-							#===========================================================================
-							# Вывод путей на страницы
-							foreach($args["items"] as $value)
-							{
-								echo '<div class="item" onclick="showInfo('."'".$value["title"]."'".', '."'".$value["url"]."'".', '."'".$value["controller"]."'".', '."'".$value["action"]."'".', '."'".$value["visible"]."'".', '."'".$value["library"]."'".')" class="page">'.$value["title"].'</div>';
-							}
-						?>
-					</div>
-					<div class="arrow-flex justify-content-end">
-						<div class="left-arrow"></div>
-						<div class="right-arrow"></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xxl-6 col-lg-12 d-flex justify-content-xxl-start justify-content-center">
-				<div class="writer-box pt-3 ps-4 pe-4">
-					<form id="openInfo" action="admin/panel" method="POST">
-						<p class="mb-4">Информация о странице</p>
-						<p class="mb-0 mt-1">Ссылка</p>
-						<input id="url_info" name="selected_url" class="inputed_info" type="text" readonly="readonly">
-						<p class="mb-0 mt-1">Контроллер</p>
-						<input id="controller_info" class="inputed_info" type="text" readonly="readonly">
-						<p class="mb-0 mt-1">Действие</p>
-						<input id="action_info" class="inputed_info" type="text" readonly="readonly">
-						<p class="mb-0 mt-1">Заголовок</p>
-						<input id="title_info" class="inputed_info" type="text" readonly="readonly">
-						<p class="mb-0 mt-1">Режим отображения</p>
-						<div class="buttons-list">
-							<input id="unvisible_info" class="btn-two btn-first" type="submit" name="pageDeactivation" value="Не активна"><input id="visible_info" class="btn-two btn-last" type="submit" name="pageActivation"value="Активна">
-							<div data-bs-toggle="modal" data-bs-target="#exampleModal2" class="btn-two btn-first-blue" type="submit" name="" value="Редактировать">Редактировать</div><input class="btn-two btn-last" type="submit" name="deletePage" value="Удалить">
+	<div class="wrapper">
+        <div class="menu">
+            <img class="logo-icon unselectable" src="vendor/image/logo-xinoro.png" alt="">
+            <div class="menu-element menu-element-select mt-6">
+                <img class="unselectable" src="vendor/image/dashboard-ico-Active.svg" alt="">
+                <span>Главная</span>
+            </div>
+            <div class="menu-element">
+                <img class="unselectable" src="vendor/image/content-ico-noActive.svg" alt="">
+                <span>Контент</span>
+            </div>
+            <div class="menu-element">
+                <img class="unselectable" src="vendor/image/database-ico-noActive.svg" alt="">
+                <span>База данных</span>
+            </div>
+            <div class="menu-element mb-5">
+                <img class="unselectable" src="vendor/image/setting-ico-noActive.svg" alt="">
+                <span>Настройка</span>
+            </div>
+            <hr class="mb-5"/>
+            <div class="menu-element">
+                <img class="unselectable" src="vendor/image/content-ico-noActive.svg" alt="">
+                <span>Редактор</span>
+            </div>
+            <div class="menu-element">
+                <img class="unselectable" src="vendor/image/content-ico-noActive.svg" alt="">
+                <span>Почта</span>
+            </div>
+            <div class="menu-element">
+                <img class="unselectable" src="vendor/image/content-ico-noActive.svg" alt="">
+                <span>Тестирование</span>
+            </div>
+            <div class="menu-element">
+                <img class="unselectable" src="vendor/image/content-ico-noActive.svg" alt="">
+                <span>Api</span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="search">
+                <input type="text" placeholder="Поиск страниц" name="" id="">
+            </div>
+            <div class="create-box">
+                <div class="text-box">
+                    <span>Создавай свои <br> проекты - просто</span>
+					<button class="create-box-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Создать</button>
+                </div>
+                <img class="create-box-bg" src="vendor/image/panel-bg-img.png" alt="">
+            </div>
+            <div class="items-box">
+				<?php
+					#===========================================================================
+					# openInEditor() - javascript(local func) - Открытие страницы в редакторе
+					# showInfo() - javascript(local func) - Открытие информации о странице
+					#===========================================================================
+					# Вывод путей на страницы
+					foreach($args["items"] as $value)
+					{
+						echo '<div class="item" data-bs-toggle="modal" data-bs-target="#exampleModal2" onclick="showInfo('."'".$value["title"]."'".', '."'".$value["url"]."'".', '."'".$value["controller"]."'".', '."'".$value["action"]."'".', '."'".$value["visible"]."'".', '."'".$value["library"]."'".')">
+							<img src="https://wikiway.com/upload/hl-photo/a47/a82/empayr-steyt-bilding_60.jpg" alt="">
+							<p class="first-text">'.$value["title"].'</p>
+							<p class="second-text">'.$value["controller"].'|'.$value["action"].'</p>
 						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+						';
+					}
+				?>
+            </div>
+        </div>
+    </div>
 	<!-- Modal -->
 	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered">

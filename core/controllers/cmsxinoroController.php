@@ -12,6 +12,11 @@
 				$this->view->LoadDesign();
 			}
 
+			function testAction()
+			{
+				$this->view->LoadDesign();
+			}
+
 			#input_region#
 	}
 
