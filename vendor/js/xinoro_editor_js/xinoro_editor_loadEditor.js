@@ -44,6 +44,8 @@ function switchImagesUrl()
 
 function getEditorTools()
 {
+    // Добавляем всем блокам инструменты для редактирования блока
+
     // Включаем возможность редактирования текста
     for(let div of document.querySelectorAll("#xinoro_text_ed"))
     {

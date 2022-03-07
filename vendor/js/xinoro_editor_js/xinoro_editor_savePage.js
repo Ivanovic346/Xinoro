@@ -5,12 +5,18 @@ function savePage()
     let Csscontent = [];
     let params = (new URL(document.location)).searchParams; // Получение get запросов
 
-    // Удаляем атрибуты (Переписать с использованием массивов)
-    for(let div of document.querySelectorAll("#xinoro_text_ed")) { div.removeAttribute("contenteditable"); }
-    for(let div of document.querySelectorAll("#xinoro_background")) {
+    // Удаляем атрибуты
+    for(let div of document.querySelectorAll("#xinoro_text_ed")) 
+    { 
+        div.removeAttribute("contenteditable"); 
+    }
+    for(let div of document.querySelectorAll("#xinoro_background")) 
+    {
          div.setAttribute("image-path",btoa(div.getAttribute('image-path')));
          div.removeAttribute("style");
     }
+
+    // Удаляем у всеъ блоков инструменты для редактирования блока
 
     // Получение блоков на сохранение
     $('.xinoro-box').each(function(i) {

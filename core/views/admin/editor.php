@@ -1,4 +1,7 @@
 <body id="xinoro-global-container">
+  <div class="text-editor-tools-r1">
+    
+  </div>
   <nav>
     <ul class="nav p-2 nav-pills justify-content-center">
       <li class="nav-item">
