@@ -1,33 +1,115 @@
-.box-footer-1 footer {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap');
+
+.box-footer-7 footer {
   width: 100%;
   height: auto;
   background: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-.box-footer-1 .container {
+.box-footer-7 .container {
   padding-top: 2%;
+  width: 1800px;
   padding-bottom: 2%;
 }
 
-.box-footer-1 .container .logo {
-  font-size: 20px;
+.box-footer-7 .row
+{
+  width: 100%;
+}
+
+.box-footer-7 .container .links-box {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box-footer-7 .container .but {
+  margin-left: 20px;
+}
+
+.box-footer-7 .container .help {
+  font-size: 15px;
+  padding-left: 5px;
+  padding-top: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #6c757d;
+}
+
+.box-footer-7 .container .link_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
   font-weight: 500;
   color: #495057;
-  margin-bottom: 8px;
 }
 
-.box-footer-1 .container .caption {
+.box-footer-7 .container .caption {
   color: #6c757d;
-  font-size: 13px;
+  font-size: 10px;
+  padding-left: 5px;
 }
 
-.box-footer-1 .container .caption a {
+.box-footer-7 .container .logo {
+  font-size: 25px;
+  font-weight: 500;
   color: #495057;
-  text-decoration: none;
+  padding-left: 5px;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
-.box-footer-1 .container a {
-  color: #495057;
+.box-footer-7 .container .team {
+  color: #6c757d;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-bottom: 10px;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
+
+.box-footer-7.container p {
+  color: #495057;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+
+.box-footer-7 .container p .sogl {
+  margin: 0 8px 0 0;
+}
+
+.box-footer-7 .container a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 15px;
+}
+/*# sourceMappingURL=Stylenew7.css.map */

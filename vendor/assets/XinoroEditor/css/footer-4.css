@@ -1,16 +1,22 @@
-.footer-4 {
+.box-footer-4 {
   width: 100%;
   height: auto;
   background: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-.footer-4 .container {
+.box-footer-4 .container {
   padding-top: 2%;
+  width: 1800px;
   padding-bottom: 2%;
 }
 
-.footer-4 .container .logo {
+.box-footer-4 .row
+{
+  width: 100%;
+}
+
+.box-footer-4 .container .logo {
   font-size: 23px;
   font-weight: 500;
   color: #495057;
@@ -26,18 +32,18 @@
           justify-content: right;
 }
 
-.footer-4 .container .caption {
+.box-footer-4 .container .caption {
   color: #6c757d;
   font-size: 10px;
   padding-left: 5px;
 }
 
-.footer-4 .container .caption a {
+.box-footer-4 .container .caption a {
   color: #495057;
   text-decoration: none;
 }
 
-.footer-4 .container a {
+.box-footer-4 .container a {
   color: #495057;
   text-decoration: none;
   font-size: 12px;

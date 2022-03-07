@@ -140,60 +140,50 @@
     transform: translateY(15px); }
   40% {
     transform: translate(0); } }
-.box-footer-3 footer {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap');
+
+.box-footer-8 footer {
   width: 100%;
   height: auto;
   background: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-.box-footer-3 .container {
+.box-footer-8 .container {
   padding-top: 2%;
+  width: 1800px;
   padding-bottom: 2%;
 }
 
-.box-footer-3 .container .logo {
-  font-size: 15px;
-  font-weight: 500;
-  color: #495057;
-  margin-bottom: 8px;
-  padding-left: 5px;
+.box-footer-8 .row
+{
+  width: 100%;
 }
 
-.box-footer-3 .container .caption {
-  color: #6c757d;
-  font-size: 10px;
-  padding-left: 5px;
-}
-
-.box-footer-3 .container .caption a {
+.box-footer-8 .container a {
   color: #495057;
   text-decoration: none;
+  font-size: 14px;
 }
 
-.box-footer-3 .container a {
-  color: #495057;
-  text-decoration: none;
-  font-size: 12px;
-  border-right: 1px solid #495057;
-  padding-right: 55px;
-}.footer-4 {
+.box-footer-8 .container .other {
   width: 100%;
   height: auto;
-  background: white;
-  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.footer-4 .container {
-  padding-top: 2%;
-  padding-bottom: 2%;
+.box-footer-8 .container .other .other_link {
+  margin: 10px;
+  text-decoration: underline;
 }
 
-.footer-4 .container .logo {
+.box-footer-8.container .logo {
   font-size: 23px;
   font-weight: 500;
   color: #495057;
-  margin-bottom: 8px;
   padding-left: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,20 +195,17 @@
           justify-content: right;
 }
 
-.footer-4 .container .caption {
+.box-footer-8 .container .caption {
   color: #6c757d;
   font-size: 10px;
   padding-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: right;
+      align-content: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
-
-.footer-4 .container .caption a {
-  color: #495057;
-  text-decoration: none;
-}
-
-.footer-4 .container a {
-  color: #495057;
-  text-decoration: none;
-  font-size: 12px;
-}
-/*# sourceMappingURL=Stylenew4.css.map */
+/*# sourceMappingURL=Stylenew8.css.map */

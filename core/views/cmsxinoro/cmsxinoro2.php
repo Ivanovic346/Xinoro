@@ -17,84 +17,47 @@
             </div>
         </div>
     </div>
-</div><div index="footer-3" class="xinoro-box">
-    <footer class="box-footer-3">        
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-2 mb-3">
-                  <div class="logo" id="xinoro_text_ed">Xinoro</div>
-                  <div class="caption" id="xinoro_text_ed">© 2022 RedCode, Team.</div>
-              </div>
-              <div class="col-6 col-lg 2 mb-3">
-                  <ul class="list-unstyled">
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">Правила сайта</a></li>                         
-                  </ul>
-              </div>
-              <div class="col-6 col-lg-2 mb-3">
-                  <ul class="list-unstyled">
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">Деловым колбасам</a></li>                        
-                  </ul>
-              </div>
-              <div class="col-6 col-lg-2 mb-3">
-                  <ul class="list-unstyled">
-                      <li class="mb-2" id="xinoro_text_ed"><a href="#">Рекламодателям</a></li>
-                  </ul>
-              </div>
-              <div class="col-6 col-lg-2 mb-3">
-                  <ul class="list-unstyled">
-                      <li class="mb-2" id="xinoro_text_ed"><a href="#">Правообладателям</a></li>
-                  </ul>
-              </div>
-              <div class="col-6 col-lg-2 mb-3">
-                  <ul class="list-unstyled">
-                      <li class="mb-2" id="xinoro_text_ed"><a href="#">Кому-то</a></li>
-                  </ul>        
-              </div>                    
-          </div>
-      </div>
-</footer>
-</div><div index="footer-4" class="xinoro-box">    
+</div><div index="footer-8" class="xinoro-box">
+    <footer class="box-footer-8">        
       <div class="container">
         <div class="row">
-            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-                <h6 id="xinoro_text_ed">SOLUTIONS</h6>
+            <div class="col-6 col-lg-2 offset-lg-2 mb-3">
                 <ul class="list-unstyled">
-                  <li class="mb-2" id="xinoro_text_ed"><a href="#">Marketing</a></li> 
-                  <li class="mb-2" id="xinoro_text_ed"><a href="#">Sales</a></li> 
-                  <li class="mb-2" id="xinoro_text_ed"><a href="#">Developers</a></li> 
-                  <li class="mb-2" id="xinoro_text_ed"><a href="#">Desing</a></li>                         
+                  <li class="mb-4" id="xinoro_text_ed"><a href="#">About</a></li> 
+                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Careers</a></li> 
+                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Press</a></li>                        
                 </ul>
             </div>
-            <div class="col-6 col-lg-2 mb-2">  
-                <h6 id="xinoro_text_ed">INFORMATION</h6>                      
+            <div class="col-6 col-lg-2 mb-2">                     
                 <ul class="list-unstyled">
-                  <li class="mb-2" id="xinoro_text_ed"><a href="#">Pricing</a></li>  
-                  <li class="mb-2" id="xinoro_text_ed"><a href="#">Data Attributions</a></li> 
-                  <li class="mb-2" id="xinoro_text_ed"><a href="#">Support</a></li> 
-                  <li class="mb-2" id="xinoro_text_ed"><a href="#">Documentation</a></li>                       
+                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Advertise</a></li>  
+                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Blog</a></li> 
+                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Help</a></li>                   
                 </ul>
             </div>
             <div class="col-6 col-lg-2 mb-3">
-                <h6 id="xinoro_text_ed">COMPANY</h6>
                 <ul class="list-unstyled">
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">About</a></li>
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">Blog</a></li>
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">Jobs</a></li>
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">Press</a></li>
+                    <li class="mb-4" id="xinoro_text_ed"><a href="#">RedCode Coins</a></li>
+                    <li class="mb-4" id="xinoro_text_ed"><a href="#">RedCode Premium</a></li>
                 </ul>
             </div>
             <div class="col-6 col-lg-2 mb-3">
-                <h6 id="xinoro_text_ed">LEGAL</h6>
                 <ul class="list-unstyled">
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">Claim</a></li>
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">Privacy</a></li>
-                    <li class="mb-2" id="xinoro_text_ed"><a href="#">Terms</a></li>
+                    <li class="mb-4" id="xinoro_text_ed"><a href="#">Facebook</a></li>
+                    <li class="mb-4" id="xinoro_text_ed"><a href="#">Twitter</a></li>
+                    <li class="mb-4" id="xinoro_text_ed"><a href="#">Instagram</a></li>
                 </ul>
-            </div>  
-            <hr width="100%" color="#495057" size="3">                 
-        </div>
-        <div class="logo" id="xinoro_text_ed">Xinoro</div>                
-        <hr width="100%" color="#495057" size="3">
-        <div class="caption" id="xinoro_text_ed">© 2022 RedCode, Team.</div>
-    </div>
+            </div>                 
+        </div>                 
+                <ul class="other" id="xinoro_text_ed">
+                    <a class="other_link" href="#">Content Policy</a>                   
+                    <a class="other_link" href="#">Privacy Policy</a>
+                    <a class="other_link" href="#">User Agreement</a>
+                    <a class="other_link" href="#">Mod Policy</a>
+                </ul> 
+            <div class="logo" id="xinoro_text_ed">Xinoro</div>                
+            <div class="caption" id="xinoro_text_ed">© 2022 RedCode, Team.</div>
+        
+    </div>   
+    </footer>
 </div>

@@ -5,8 +5,14 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.box-footer-3 .row
+{
+  width: 100%;
+}
+
 .box-footer-3 .container {
   padding-top: 2%;
+  width: 1800px;
   padding-bottom: 2%;
 }
 
