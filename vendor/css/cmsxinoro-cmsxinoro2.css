@@ -140,72 +140,97 @@
     transform: translateY(15px); }
   40% {
     transform: translate(0); } }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap');
-
-.box-footer-8 footer {
+.box-footer-6 footer {
   width: 100%;
   height: auto;
   background: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-.box-footer-8 .container {
+.box-footer-6 .container {
   padding-top: 2%;
   width: 1800px;
   padding-bottom: 2%;
 }
 
-.box-footer-8 .row
+.box-footer-6 .row
 {
   width: 100%;
 }
 
-.box-footer-8 .container a {
-  color: #495057;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.box-footer-8 .container .other {
-  width: 100%;
-  height: auto;
-  display: inline-block;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.box-footer-8 .container .other .other_link {
-  margin: 10px;
-  text-decoration: underline;
-}
-
-.box-footer-8.container .logo {
-  font-size: 23px;
+.box-footer-6 .container .logo {
+  font-size: 25px;
   font-weight: 500;
   color: #495057;
   padding-left: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: right;
-      align-content: right;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
-.box-footer-8 .container .caption {
+@media screen and (max-width: 425px) {
+  .box-footer-6 .container .logo {
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .box-footer-6 .container .prod {
+    padding-top: 8px;
+  }
+}
+
+.box-footer-6 .container .caption {
   color: #6c757d;
-  font-size: 10px;
+  font-size: 12px;
   padding-left: 5px;
+}
+
+.box-footer-6 .container .teamblock {
+  width: 100%;
+  height: auto;
+}
+
+.box-footer-6 .container .team {
+  color: #6c757d;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: right;
-      align-content: right;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-/*# sourceMappingURL=Stylenew8.css.map */
+
+.box-footer-6 .container .home {
+  padding-right: 10px;
+}
+
+.box-footer-6 .container .mail {
+  padding-right: 10px;
+}
+
+.box-footer-6 .container .phone {
+  padding-right: 10px;
+}
+
+.box-footer-6 .container .linia1 {
+  width: 30%;
+  color: #7d60fc;
+}
+
+.box-footer-6 .container p {
+  color: #495057;
+  font-size: 12px;
+}
+
+.box-footer-6 .container a {
+  color: #495057;
+  text-decoration: none;
+  font-size: 12px;
+}

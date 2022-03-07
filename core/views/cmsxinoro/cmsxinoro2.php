@@ -17,47 +17,46 @@
             </div>
         </div>
     </div>
-</div><div index="footer-8" class="xinoro-box">
-    <footer class="box-footer-8">        
+</div><div index="footer-6" class="xinoro-box">
+  <footer class="box-footer-6">           
       <div class="container">
-        <div class="row">
-            <div class="col-6 col-lg-2 offset-lg-2 mb-3">
-                <ul class="list-unstyled">
-                  <li class="mb-4" id="xinoro_text_ed"><a href="#">About</a></li> 
-                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Careers</a></li> 
-                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Press</a></li>                        
-                </ul>
-            </div>
-            <div class="col-6 col-lg-2 mb-2">                     
-                <ul class="list-unstyled">
-                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Advertise</a></li>  
-                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Blog</a></li> 
-                  <li class="mb-4" id="xinoro_text_ed"><a href="#">Help</a></li>                   
-                </ul>
+          <div class="row">
+            <div class="col-6 col-lg-3 offset-lg-1 mb-3">
+                  <div class="logo" id="xinoro_text_ed">Xinoro</div> 
+                  <div class="caption" id="xinoro_text_ed">Designed and built with all the love in the world by the RetCode team with the help of our contributors.</div>                        
             </div>
             <div class="col-6 col-lg-2 mb-3">
-                <ul class="list-unstyled">
-                    <li class="mb-4" id="xinoro_text_ed"><a href="#">RedCode Coins</a></li>
-                    <li class="mb-4" id="xinoro_text_ed"><a href="#">RedCode Premium</a></li>
-                </ul>
+                    <h6 class="prod" id="xinoro_text_ed">PRODUCTS</h6>
+                    <hr class="linia1">
+                    <ul class="list-unstyled">
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">MDBootstrap</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">MDWordPress</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">BrandFlow</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Bootstrap Angular</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h6 class="prod" id="xinoro_text_ed">USEFUL LINKS</h6>
+                    <hr class="linia1">
+                    <ul class="list-unstyled">
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Your Account</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Become an Affance</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Shipping Rates</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Help</a></li>
+                    </ul>
+                </div>  
+                <div class="col-6 col-lg-2 mb-3">
+                    <h6 class="prod" id="xinoro_text_ed">CONTACT</h6>
+                    <hr class="linia1">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><p id="xinoro_text_ed">New York, NY 10012, US</p></li>
+                        <li class="mb-2"><p id="xinoro_text_ed">info@example.com</p></li>
+                        <li class="mb-2"><p id="xinoro_text_ed">+ 01 234 567 89</p></li>
+                    </ul>
+                </div>                              
             </div>
-            <div class="col-6 col-lg-2 mb-3">
-                <ul class="list-unstyled">
-                    <li class="mb-4" id="xinoro_text_ed"><a href="#">Facebook</a></li>
-                    <li class="mb-4" id="xinoro_text_ed"><a href="#">Twitter</a></li>
-                    <li class="mb-4" id="xinoro_text_ed"><a href="#">Instagram</a></li>
-                </ul>
-            </div>                 
-        </div>                 
-                <ul class="other" id="xinoro_text_ed">
-                    <a class="other_link" href="#">Content Policy</a>                   
-                    <a class="other_link" href="#">Privacy Policy</a>
-                    <a class="other_link" href="#">User Agreement</a>
-                    <a class="other_link" href="#">Mod Policy</a>
-                </ul> 
-            <div class="logo" id="xinoro_text_ed">Xinoro</div>                
-            <div class="caption" id="xinoro_text_ed">© 2022 RedCode, Team.</div>
-        
-    </div>   
-    </footer>
-</div>
+            <div class="teamblock">
+                <div class="team" id="xinoro_text_ed">© 2022 RedCode, Team.</div> 
+            </div>                                                 
+        </div>                                        
+      </footer></div>
