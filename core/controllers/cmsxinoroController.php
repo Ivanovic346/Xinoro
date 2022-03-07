@@ -17,6 +17,11 @@
 				$this->view->LoadDesign();
 			}
 
+			function cmsxinoro2Action()
+			{
+				$this->view->LoadDesign();
+			}
+
 			#input_region#
 	}
 

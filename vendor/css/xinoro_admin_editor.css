@@ -8,24 +8,25 @@
 }
 
 .nav {
-  background: #FFFFFF;
+  background: #161620;
   -webkit-box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
 }
 
 .nav-link {
-  color: black;
+  color: #C0C0C0;
   cursor: pointer;
 }
 
 .nav-link:hover {
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+  color: #61A35B;
 }
 
 .design-box {
   width: 100%;
-  background: #FFFFFF;
+  background: #201F2F;
   -webkit-box-shadow: 0px 21px 70px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 21px 70px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
@@ -96,7 +97,7 @@
   width: 300px;
   height: 200px;
   margin-right: 10px;
-  border: 1px solid black;
+  border: 3px solid #61A35B;
   cursor: pointer;
   background-size: cover !important;
   background-position: center !important;
@@ -109,7 +110,7 @@
 
 .saveBtn {
   margin-left: 10px;
-  background: cornflowerblue;
+  background: #61A35B;
   border-radius: 5px;
 }
 
@@ -129,5 +130,19 @@
 
 .saveBtn > a:hover {
   color: white;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #161620;
+  color: white;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  outline: 0;
 }
 /*# sourceMappingURL=xinoro_admin_editor.css.map */

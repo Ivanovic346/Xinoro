@@ -15,7 +15,7 @@
 
 		// end base header
 		echo '<!-- Custom setting -->
-		<link rel="stylesheet" href="vendor/css/'.$stylesheet.'">
+		<link rel="stylesheet" href="vendor/css/'.$stylesheet.'.css">
 		</head>';
 	}
 ?>

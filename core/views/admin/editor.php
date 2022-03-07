@@ -1,13 +1,4 @@
 <body id="xinoro-global-container">
-  <div class="editor-tools" style="
-      position: fixed;
-      width: 25%;
-      height: 100vh;
-      background: white;
-      box-shadow: 0px 4px 17px rgb(0 0 0 / 25%);
-  ">
-    <div id="XoheBB"></div>    
-  </div>
   <nav>
     <ul class="nav p-2 nav-pills justify-content-center">
       <li class="nav-item">
@@ -59,13 +50,10 @@
       <div class="modal-content">
         <div class="modal-header border-0">
           <h5 class="modal-title" id="exampleModalLabel">Сохранение страницы</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="location.reload();" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           Ваша страница была успешно сохранена, спасибо что используете Xinoro CMS
-        </div>
-        <div class="modal-footer border-0">
-          <button type="button" class="btn btn-primary" id="nextSaveBtn">Продолжить</button>
         </div>
       </div>
     </div>
@@ -75,13 +63,3 @@
 <script type="text/javascript" src="vendor/js/xinoro_editor_js/xinoro_editor_getBlocks.js"></script>
 <script type="text/javascript" src="vendor/js/xinoro_editor_js/xinoro_editor_savePage.js"></script>
 <script type="text/javascript" src="vendor/js/xinoro_editor_js/xinoro_editor_loadEditor.js"></script>
-
-<script type="text/javascript">
-
-	// Create Editor
-	createEditor("white","black");
-  
-	// Setting Editor
-	setBorder("2px solid #fdfdfd");
-  
-</script>
