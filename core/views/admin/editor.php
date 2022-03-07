@@ -1,16 +1,25 @@
 <body id="xinoro-global-container">
   <div class="text-editor-tools-r1">
     <div class="editor-tools-r2">
-      <img src="vendor/assets/XoheBB/image/B.svg" alt="">
+      <a onclick="setFormat('bold');"><img src="vendor/assets/XoheBB/image/B.svg" alt=""></a>
     </div>
     <div class="editor-tools-r2">
-      <img src="vendor/assets/XoheBB/image/I.svg" alt="">
+      <a onclick="setFormat('italic');"><img src="vendor/assets/XoheBB/image/I.svg" alt=""></a>
     </div>
     <div class="editor-tools-r2">
-      <img src="vendor/assets/XoheBB/image/U.svg" alt="">
+      <a onclick="setFormat('underline');"><img src="vendor/assets/XoheBB/image/U.svg" alt=""></a>
     </div>
     <div class="editor-tools-r2">
-      <img src="vendor/assets/XoheBB/image/S.svg" alt="">
+      <a onclick="setFormat('strikethrough');"><img src="vendor/assets/XoheBB/image/S.svg" alt=""></a>
+    </div>
+    <div class="editor-tools-r2">
+      <a onclick="setFormat('justifyLeft');"><img src="vendor/assets/XoheBB/image/align-left.svg" alt=""></a>
+    </div>
+    <div class="editor-tools-r2">
+      <a onclick="setFormat('justifyCenter');"><img src="vendor/assets/XoheBB/image/align-center.svg" alt=""></a>
+    </div>
+    <div class="editor-tools-r2">
+      <a onclick="setFormat('justifyRight');"><img src="vendor/assets/XoheBB/image/align-right.svg" alt=""></a>
     </div>
   </div>
   <nav>
