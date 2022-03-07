@@ -1,8 +1,3 @@
-* {
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-
 #xinoro_text_ed {
   outline: none;
 }
@@ -22,6 +17,8 @@
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
   color: #61A35B;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .design-box {
@@ -32,6 +29,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow-x: auto;
 }
 
 .design-box-open {
@@ -94,7 +92,7 @@
 
 .box {
   background: gray;
-  width: 300px;
+  min-width: 300px;
   height: 200px;
   margin-right: 10px;
   border: 3px solid #61A35B;
@@ -106,6 +104,8 @@
 .box:hover {
   -webkit-transform: scale(0.95);
   transform: scale(0.95);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .saveBtn {
@@ -117,11 +117,15 @@
 .saveBtn:hover {
   -webkit-transform: scale(0.95);
   transform: scale(0.95);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .saveBtn > .nav-link:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .saveBtn > a {
@@ -130,6 +134,8 @@
 
 .saveBtn > a:hover {
   color: white;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .modal-content {
@@ -156,23 +162,75 @@ body > #xinoro_text_ed:focus {
 
 .xinoro-box:hover
 {
-  border-top: 3px solid #61a35b;
-  border-bottom: 3px solid #61a35b;
+  outline:3px dashed #61a35b;
+  /* outline-offset:-4px; */
 }
 
-body::-webkit-scrollbar {
+.xinoro-box:hover .box-editor-tools-r1
+{
+  display: flex;
+}
+
+.xinoro-box-edit-tool
+{
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  background-color: #161620;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 10px;
+}
+
+.xinoro-box-delete-tool
+{
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  background-color: #161620;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  display: flex;
+  color: white;
+}
+
+.xinoro-box-delete-tool img
+{
+  width: 15px;
+}
+
+.box-editor-tools-r1
+{
+  display: none;
+  position: absolute;
+  left: 1%;
+  margin-top: 15px;
+}
+
+.xinoro-box-delete-tool:hover, .xinoro-box-edit-tool:hover
+{
+  transform: scale(0.9);
+}
+
+body::-webkit-scrollbar,  .design-box::-webkit-scrollbar{
   width: 10px;
 }
 
-body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track, .design-box::-webkit-scrollbar-track {
   background-color: #161620;
 }
 
-body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb, .design-box::-webkit-scrollbar-thumb {
   background-color: #61A35B;
   border-radius: 15px;
   min-height: 20px;
 }
+
 
 .text-editor-tools-r1
 {
@@ -182,7 +240,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   display: none;
   justify-content: center;
-
+  flex-wrap: wrap;
   overflow: hidden;
 
   -webkit-animation: openEditorTools .5s linear;

@@ -10,13 +10,19 @@ function savePage()
     { 
         div.removeAttribute("contenteditable"); 
     }
+
     for(let div of document.querySelectorAll("#xinoro_background")) 
     {
          div.setAttribute("image-path",btoa(div.getAttribute('image-path')));
          div.removeAttribute("style");
     }
+    
 
-    // Удаляем у всеъ блоков инструменты для редактирования блока
+    // Удаляем у всех блоков инструменты для редактирования блока
+    for(let div of document.querySelectorAll(".box-editor-tools-r1"))
+    {
+        div.remove();
+    }
 
     // Получение блоков на сохранение
     $('.xinoro-box').each(function(i) {

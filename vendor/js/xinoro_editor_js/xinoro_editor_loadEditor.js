@@ -45,6 +45,10 @@ function switchImagesUrl()
 function getEditorTools()
 {
     // Добавляем всем блокам инструменты для редактирования блока
+    for(let div of document.querySelectorAll(".xinoro-box"))
+    {
+        $("<div class='box-editor-tools-r1'><div class='xinoro-box-edit-tool'>Редактировать</div><div onClick='boxDelete(this);' class='xinoro-box-delete-tool'><img src='vendor/image/trash.svg'></div></div>").prependTo(div);
+    }
 
     // Включаем возможность редактирования текста
     for(let div of document.querySelectorAll("#xinoro_text_ed"))

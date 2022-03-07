@@ -4,7 +4,8 @@
 		$librarys = json_decode(file_get_contents("config/plugins.json"),true);
 
 		// base header
-		echo '<!DOCTYPE html><html lang="en"><head><!-- Base setting --><base href='.$base_url.'>';
+		echo '<!DOCTYPE html><html lang="en"><meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><head><!-- Base setting --><base href='.$base_url.'>';
 
 			// Library
 			foreach($librarys as $key => $value)

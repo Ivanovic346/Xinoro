@@ -55,3 +55,9 @@ function loadToolBox(type)
         }
     }), 400);
 }
+
+// Удаление блоков в редакторе
+function boxDelete(object)
+{
+    ($($(object).parent()).parent()).remove();
+}
