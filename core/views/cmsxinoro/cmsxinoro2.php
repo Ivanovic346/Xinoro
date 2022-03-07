@@ -6,7 +6,7 @@
                 <p>OUR COMPANY</p>
             </div>
             <div class="inner second_intro" id="xinoro_text_ed">
-                <p>Bring Your Ideas to Life</p>
+                <p>Bring Your <strike>Ideas</strike> to <u>Life</u></p>
             </div>
             <div class="inner third_intro" id="xinoro_text_ed">
                 <p>Everything that you dreamed of can be brought to life exactly at the </p>

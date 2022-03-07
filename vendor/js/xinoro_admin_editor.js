@@ -36,9 +36,6 @@ function loadToolMenu()
         TextBox[i].onfocus = function(){
             $('.text-editor-tools-r1').css('display','flex'); 
         };
-        // TextBox[i].onblur = function(){
-        //     $('.text-editor-tools-r1').css('display','none'); 
-        // };
     }
 }
 

@@ -220,4 +220,11 @@ body::-webkit-scrollbar-thumb {
 {
   background-color: #61A35B;
 }
+
+.close-tools-r2
+{
+  color: #C0C0C0;
+  font-size: 18px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=xinoro_admin_editor.css.map */

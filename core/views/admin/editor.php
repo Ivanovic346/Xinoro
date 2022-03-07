@@ -21,6 +21,9 @@
     <div class="editor-tools-r2">
       <a onclick="setFormat('justifyRight');"><img src="vendor/assets/XoheBB/image/align-right.svg" alt=""></a>
     </div>
+    <div class="editor-tools-r2">
+      <b class="close-tools-r2" onclick="$('.text-editor-tools-r1').css('display','none');">X</b>
+    </div>
   </div>
   <nav>
     <ul class="nav p-2 nav-pills justify-content-center">
