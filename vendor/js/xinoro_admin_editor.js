@@ -33,9 +33,11 @@ function loadToolMenu()
     // Настройка полей текста(Открытие редактора по клику на текст)
     var TextBox = document.querySelectorAll("#xinoro_text_ed");
     for (var i = 0; i < TextBox.length; i++) {
-        TextBox[i].onclick = function(){
-            $(".editor-tools").show();
-            
+        TextBox[i].onfocus = function(){
+            $('.text-editor-tools-r1').css('display','flex'); 
+        };
+        TextBox[i].onblur = function(){
+            $('.text-editor-tools-r1').css('display','none'); 
         };
     }
 }

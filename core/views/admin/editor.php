@@ -1,6 +1,17 @@
 <body id="xinoro-global-container">
   <div class="text-editor-tools-r1">
-    
+    <div class="editor-tools-r2">
+      <img src="vendor/assets/XoheBB/image/B.svg" alt="">
+    </div>
+    <div class="editor-tools-r2">
+      <img src="vendor/assets/XoheBB/image/I.svg" alt="">
+    </div>
+    <div class="editor-tools-r2">
+      <img src="vendor/assets/XoheBB/image/U.svg" alt="">
+    </div>
+    <div class="editor-tools-r2">
+      <img src="vendor/assets/XoheBB/image/S.svg" alt="">
+    </div>
   </div>
   <nav>
     <ul class="nav p-2 nav-pills justify-content-center">

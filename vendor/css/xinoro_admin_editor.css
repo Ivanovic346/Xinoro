@@ -148,7 +148,10 @@
 
 #xinoro_text_ed:focus {
   background: rgba(32, 22, 22, 0.3);
-  transition: none;
+}
+
+body > #xinoro_text_ed:focus {
+  background: rgba(32, 22, 22, 1);
 }
 
 .xinoro-box:hover
@@ -174,5 +177,47 @@ body::-webkit-scrollbar-thumb {
 .text-editor-tools-r1
 {
   background-color: #161620;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  display: none;
+  justify-content: center;
+
+  overflow: hidden;
+
+  -webkit-animation: openEditorTools .5s linear;
+        animation: openEditorTools .5s linear;
+}
+
+@keyframes openEditorTools {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 55px;
+  }
+}
+
+.text-editor-tools-r1 img
+{
+  width: 18px;
+  height: 18px;
+}
+
+.editor-tools-r2
+{
+  display: flex;
+  text-align: center;
+  margin-right: 5px;
+  height: 55px;
+  width: 30px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-editor-tools-r1 .editor-tools-r2:hover
+{
+  background-color: #61A35B;
 }
 /*# sourceMappingURL=xinoro_admin_editor.css.map */
