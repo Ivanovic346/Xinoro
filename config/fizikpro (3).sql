@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost:3306
--- Время создания: Мар 07 2022 г., 23:51
+-- Время создания: Мар 09 2022 г., 16:10
 -- Версия сервера: 5.7.24
 -- Версия PHP: 7.4.16
 
@@ -84,7 +84,8 @@ INSERT INTO `routes` (`id`, `url`, `controller`, `action`, `title`, `visible`, `
 (15, 'cmsxinoro', 'cmsxinoro', 'index', 'Тест', 1, 'bootstrap;jquery;xohebb;', 'cmsxinoro-index'),
 (16, 'admin/ajax', 'admin', 'ajax', 'ajax(контроллер)', 1, '', ''),
 (17, 'cmsxinoro/test', 'cmsxinoro', 'test', 'cmsxinoro Test', 1, 'bootstrap;jquery;xohebb;', 'cmsxinoro-test'),
-(18, 'cmsxinoro1', 'cmsxinoro', 'cmsxinoro2', 'cmsxinoro', 1, 'bootstrap;', 'cmsxinoro-cmsxinoro2');
+(18, 'cmsxinoro1', 'cmsxinoro', 'cmsxinoro2', 'cmsxinoro', 1, 'bootstrap;', 'cmsxinoro-cmsxinoro2'),
+(19, 'forum', 'forum', 'index', 'Главная страница', 1, 'bootstrap;', 'forum-index');
 
 --
 -- Индексы сохранённых таблиц
@@ -116,7 +117,7 @@ ALTER TABLE `editor_block`
 -- AUTO_INCREMENT для таблицы `routes`
 --
 ALTER TABLE `routes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
