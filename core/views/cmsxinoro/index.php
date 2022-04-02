@@ -1,25 +1,16 @@
-<div index="text-1" class="xinoro-box">
-    <div class="container-text-1">
-        <div class="title" id="xinoro_text_ed"><h1>Ваш шедевр готов!</h1></div>
-        <div class="line"></div>
-        <div class="text" id="xinoro_text_ed">Повседневная практика показывает, что реализация намеченных плановых заданий играет важную роль в формировании позиций, занимаемых участниками в отношении поставленных задач. Повседневная практика показывает, что новая модель организационной деятельности в значительной степени обуславливает создание форм развития. Не следует, однако забывать, что сложившаяся структура организации в значительной степени обуславливает создание новых предложений. Равным образом рамки и место обучения кадров в значительной степени обуславливает создание систем массового участия. Задача организации, в особенности же сложившаяся структура организации обеспечивает широкому кругу (специалистов) участие в формировании системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки дальнейших направлений развития.</div>
-        <div class="button">
-            <button id="xinoro_text_ed"><b>Продолжить</b></button>
-        </div>
-    </div>
-</div><div index="header-1" class="xinoro-box">
+<div index="header-1" class="xinoro-box">
     <div id="xinoro_background" image-path="aGVhZGVyLTEvYmctaGVhZGVyLTEucG5n" class="content-first-header_1">
         <div class="black-bg-header-1"></div>
         <div class="introduction-header-1">
             <div class="inner first_intro" id="xinoro_text_ed">
-                <p>OUR COMPANY</p>
+                <p style="text-align: left;">OUR COMPANY</p>
             </div>
             <div class="inner second_intro" id="xinoro_text_ed">
-                <p>Bring Your Ideas to Life</p>
+                <p>Bring <i>Your</i> <strike>Ideas</strike> to Life</p>
             </div>
             <div class="inner third_intro" id="xinoro_text_ed">
-                <p>Everything that you dreamed of can be brought to life exactly at the </p>
-                <p>moment when you decide to win</p>
+                <p style="text-align: right;">Everything that you dreamed of can be brought to life exactly at the </p>
+                <p style="text-align: right;">moment when you decide to win</p>
             </div>
             <div class="arrow">
                 <img src="vendor/assets/XinoroEditor/images/header-1/arrow-header-1.png">
@@ -247,4 +238,46 @@
             </div>
         </div>
     </div>
-</div>
+</div><div index="footer-6" class="xinoro-box">
+  <footer class="box-footer-6">           
+      <div class="container">
+          <div class="row">
+            <div class="col-6 col-lg-3 offset-lg-1 mb-3">
+                  <div class="logo" id="xinoro_text_ed">Xinoro</div> 
+                  <div class="caption" id="xinoro_text_ed">Designed and built with all the love in the world by the RetCode team with the help of our contributors.</div>                        
+            </div>
+            <div class="col-6 col-lg-2 mb-3">
+                    <h6 class="prod" id="xinoro_text_ed">PRODUCTS</h6>
+                    <hr class="linia1">
+                    <ul class="list-unstyled">
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">MDBootstrap</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">MDWordPress</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">BrandFlow</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Bootstrap Angular</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h6 class="prod" id="xinoro_text_ed">USEFUL LINKS</h6>
+                    <hr class="linia1">
+                    <ul class="list-unstyled">
+                        <li class="mb-2" id="xinoro_text_ed"><a href="https://vk.com/xoheveras">Your Account</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Become an Affance</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Shipping Rates</a></li>
+                        <li class="mb-2" id="xinoro_text_ed"><a href="#">Help</a></li>
+                    </ul>
+                </div>  
+                <div class="col-6 col-lg-2 mb-3">
+                    <h6 class="prod" id="xinoro_text_ed">CONTACT</h6>
+                    <hr class="linia1">
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><p id="xinoro_text_ed"><img class="home" src="vendor/assets/XinoroEditor/images/footer-6/home.svg" alt="home" weight="25px" height="25px">New York, NY 10012, US</p></li>
+                        <li class="mb-2"><p id="xinoro_text_ed"><img class="mail" src="vendor/assets/XinoroEditor/images/footer-6/mail.svg" alt="mail" weight="18px" height="18px">info@example.com</p></li>
+                        <li class="mb-2"><p id="xinoro_text_ed"><img class="phone" src="vendor/assets/XinoroEditor/images/footer-6/phone.svg" alt="phone" weight="23px" height="23px">+ 01 234 567 89</p></li>
+                    </ul>
+                </div>                              
+            </div>
+            <div class="teamblock">
+                <div class="team" id="xinoro_text_ed">© 2022 RedCode, Team.</div> 
+            </div>                                                 
+        </div>                                        
+      </footer></div>

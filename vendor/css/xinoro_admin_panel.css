@@ -101,6 +101,7 @@ body
 
 .content .search input
 {
+    padding-left: 20px;
     height: 35px;
     width: 100%;
     background: #161620;
