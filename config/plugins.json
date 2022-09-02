@@ -1,5 +1,0 @@
-{
-	"Bootstrap":"<!-- Bootstrap 5 --><link rel='stylesheet' type='text/css' href='vendor/assets/Bootstrap/css/bootstrap.min.css'><script type='text/javascript' src='vendor/assets/Bootstrap/js/bootstrap.min.js'></script>",
-	"jquery":"<!-- jquery 3.6.0 --><script src='vendor/assets/Jquery/jquery-3.6.0.min.js'></script>",
-	"xohebb":"<!-- xoheBB v0.1 --><link rel='stylesheet' type='text/css' href='vendor/assets/XoheBB/css/XoheBBEditor.css'><script type='text/javascript' src='vendor/assets/XoheBB/js/createEditor.js'></script>"
-}
