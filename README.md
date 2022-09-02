@@ -6,6 +6,8 @@
 
 <div align="center">
 
+ <img align="center" src="header.png">
+ 
  <a href="https://github.com/xoheveras"> ![Developer](https://img.shields.io/badge/Developed%20by-xoheveras(Egor%20Udovin)-blueviolet) </a> 
  <a href="https://github.com/xoheveras/Xinoro"> ![OpenSourse](https://img.shields.io/badge/Open%20Source-Xinoro-blueviolet) </a>
  <a href=""> ![codesize](https://img.shields.io/github/languages/code-size/xoheveras/Xinoro) </a> 
